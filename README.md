@@ -2,8 +2,8 @@
 
 Protect a page's contents with HTTP Basic Authentication. The user, password, and realm are set up by adding the following Fields to a page:
 
-User (required)
-Password (required)
+User (required)  
+Password (required)  
 Realm (optional)
 
 Realm defaults to the page slug. If set to "true" it will use Radiant::Config['site.title'], otherwise set your own value.
