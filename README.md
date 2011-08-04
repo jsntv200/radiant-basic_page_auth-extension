@@ -27,7 +27,7 @@ gem install radiant-basic_page_auth-extension
 Include the gem in your environment.rb :
 
 ```
-config.gem 'radiant-basic_page_auth-extension', :version => '~> 1.0.0'
+config.gem 'radiant-basic_page_auth-extension', :version => '~> 1.0.1'
 ```
 
 Run the update task :

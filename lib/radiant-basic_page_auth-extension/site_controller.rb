@@ -19,6 +19,7 @@ module RadiantBasicPageAuthExtension
               end
             end
 
+            page.authenticated = true
             process_page_without_basic_auth(page)
           else
             request_http_basic_authentication(page.basic_auth_realm)

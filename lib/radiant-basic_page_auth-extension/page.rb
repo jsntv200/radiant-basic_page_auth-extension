@@ -2,6 +2,7 @@ module RadiantBasicPageAuthExtension
   module Page
     def self.included(base)
       base.instance_eval {
+        attr_accessor_with_default :authenticated, false
         include InstanceMethods
       }
     end
