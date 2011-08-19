@@ -1,5 +1,5 @@
 module RadiantBasicPageAuthExtension
-  VERSION     = '1.0.1'
+  VERSION     = '1.0.2'
   SUMMARY     = %q{HTTP Basic Authentication for Radiant CMS}
   DESCRIPTION = %{Protect a page's contents with HTTP Basic Authentication.}
   URL         = "https://github.com/jsntv200/radiant-basic_page_auth-extension"
